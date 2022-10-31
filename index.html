@@ -20,7 +20,7 @@
         <h2>Faça o login para continuar</h2>
         <form>
           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Digite o seu usuario" value="admin">
+            <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Digite o seu usuario" value="">
             <label for="text" class="form-label">Digite o seu usuario</label>
           </div>
         </form>
@@ -30,7 +30,7 @@
             <label for="password" class="form-label">Digite a sua senha</label>
           </div>
         </form>
-        <input type="submit" onclick="logar()" class="btn btn-primary" value="Entrar">
+        <input type="submit" id="logar" onclick="logar()" class="btn btn-primary" value="Entrar">
       </div>
       <div class="col-md-6 order-md-1">
         <div class="col-12">
@@ -43,8 +43,12 @@
     </div>
   </div>
 
-    
+  <div class="container">
+    <footer class="py-3 my-4">
+      <p class="footerbk text-center"><b>2022 &copy; @brunoabreusz</b></p>
+    </footer>
   </div>
+    
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

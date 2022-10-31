@@ -9,4 +9,3 @@ function logar() {
         alert('Conta não cadastrada');
     }
 }
-

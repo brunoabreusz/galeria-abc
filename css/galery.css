@@ -1,0 +1,26 @@
+header{
+    background-color: #f1f1f1;
+}
+
+li, a{
+    color: #B51FFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+b, svg, p, h4{
+    color: #B51FFF;
+}
+
+.BK{
+   padding: 50px;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+}
